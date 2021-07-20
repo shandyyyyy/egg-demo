@@ -1,0 +1,21 @@
+{
+  "name": "egg-demo",
+  "version": "1.0.0",
+  "description": "egg-demo",
+  "main": "app.js",
+  "scripts": {
+    "dev": "egg-bin dev",
+    "test": "egg-bin test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "egg": "^2.29.4",
+    "egg-view-nunjucks": "^2.3.0",
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.16.4",
+    "egg-mock": "^4.1.0"
+  }
+}
