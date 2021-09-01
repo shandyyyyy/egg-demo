@@ -5,7 +5,6 @@ class UserController extends Controller {
     const {ctx, app} = this;
 
     const params = ctx.params;
-    console.log(params);
     const user = await ctx.service.user.find(params.id);
     // await this.ctx.render('user/user.tpl', {info: user});
     if(!user){
